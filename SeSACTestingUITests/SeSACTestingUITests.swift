@@ -24,10 +24,22 @@ final class SeSACTestingUITests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
+        
         let app = XCUIApplication()
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        app.textFields["passwordTextField"].tap()
+        app.textFields["passwordTextField"].typeText("1234567")
+        
+        app.textFields["idTextField"].tap()
+        app.textFields["idTextField"].typeText("1234567")
+        
+        app.textFields["emailTextField"].tap()
+        app.textFields["emailTextField"].typeText("333")
+        
+        app.buttons["loginButton"].tap()
+        
+        XCTAssertTrue(app.staticTexts["다음 페이지"].exists, "다음 페이지 글씨 안보임")
     }
 
     func testLaunchPerformance() throws {
