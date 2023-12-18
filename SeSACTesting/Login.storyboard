@@ -106,6 +106,42 @@
             </objects>
             <point key="canvasLocation" x="936.64122137404581" y="-28.169014084507044"/>
         </scene>
+        <!--In App Purchase View Controller-->
+        <scene sceneID="dOi-bl-ezo">
+            <objects>
+                <viewController storyboardIdentifier="InAppPurchaseViewController" id="asi-lC-kib" customClass="InAppPurchaseViewController" customModule="SeSACTesting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aNl-m4-5oy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKw-UQ-wcG">
+                                <rect key="frame" x="64" y="140" width="265" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWE-rA-YaG">
+                                <rect key="frame" x="155" y="211" width="83" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="구매하기"/>
+                                <connections>
+                                    <action selector="buyButtonClicked:" destination="asi-lC-kib" eventType="touchUpInside" id="wxQ-FI-ti8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I4A-Tj-FbI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="productLabel" destination="WKw-UQ-wcG" id="bIL-ag-f3Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkO-Ik-xBV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890.8396946564885" y="-20.422535211267608"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
