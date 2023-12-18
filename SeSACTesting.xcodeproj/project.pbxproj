@@ -18,6 +18,9 @@
 		8B5EFF412B293E250037609C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8B5EFF402B293E250037609C /* Alamofire */; };
 		8B5EFF432B2941970037609C /* NetworkTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EFF422B2941970037609C /* NetworkTestCase.swift */; };
 		8B5EFF452B294DB30037609C /* NetworkMockTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EFF442B294DB30037609C /* NetworkMockTestCase.swift */; };
+		8BDEF7A52B2FE78400843655 /* SeSACShop.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8BDEF7A42B2FE78400843655 /* SeSACShop.storekit */; };
+		8BDEF7A72B2FEA1700843655 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDEF7A62B2FEA1700843655 /* StoreView.swift */; };
+		8BDEF7A92B2FEAB900843655 /* SeSACShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDEF7A82B2FEAB900843655 /* SeSACShop.swift */; };
 		8BF71C082B269B070069E9F2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF71C072B269B070069E9F2 /* Login.storyboard */; };
 		8BF71C0A2B269B790069E9F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF71C092B269B790069E9F2 /* LoginViewController.swift */; };
 		8BF71C0C2B26A8B40069E9F2 /* LoginTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF71C0B2B26A8B40069E9F2 /* LoginTestCase.swift */; };
@@ -57,6 +60,9 @@
 		8B5EFF3D2B293DB00037609C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8B5EFF422B2941970037609C /* NetworkTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestCase.swift; sourceTree = "<group>"; };
 		8B5EFF442B294DB30037609C /* NetworkMockTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMockTestCase.swift; sourceTree = "<group>"; };
+		8BDEF7A42B2FE78400843655 /* SeSACShop.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SeSACShop.storekit; sourceTree = "<group>"; };
+		8BDEF7A62B2FEA1700843655 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		8BDEF7A82B2FEAB900843655 /* SeSACShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACShop.swift; sourceTree = "<group>"; };
 		8BF71C072B269B070069E9F2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		8BF71C092B269B790069E9F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8BF71C0B2B26A8B40069E9F2 /* LoginTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTestCase.swift; sourceTree = "<group>"; };
@@ -124,6 +130,9 @@
 				8BF71C0D2B26AE750069E9F2 /* LoginUpdateViewController.swift */,
 				8B5EFF3D2B293DB00037609C /* NetworkManager.swift */,
 				8BFF0B8F2B2BE2E4008D801F /* InAppPurchaseViewController.swift */,
+				8BDEF7A42B2FE78400843655 /* SeSACShop.storekit */,
+				8BDEF7A62B2FEA1700843655 /* StoreView.swift */,
+				8BDEF7A82B2FEAB900843655 /* SeSACShop.swift */,
 			);
 			path = SeSACTesting;
 			sourceTree = "<group>";
@@ -276,6 +285,7 @@
 			files = (
 				8B2873F92B22A625007C943E /* Preview Assets.xcassets in Resources */,
 				8B2873F62B22A625007C943E /* Assets.xcassets in Resources */,
+				8BDEF7A52B2FE78400843655 /* SeSACShop.storekit in Resources */,
 				8BF71C082B269B070069E9F2 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +313,9 @@
 			files = (
 				8B5EFF3E2B293DB00037609C /* NetworkManager.swift in Sources */,
 				8BF71C0A2B269B790069E9F2 /* LoginViewController.swift in Sources */,
+				8BDEF7A72B2FEA1700843655 /* StoreView.swift in Sources */,
 				8BF71C0E2B26AE750069E9F2 /* LoginUpdateViewController.swift in Sources */,
+				8BDEF7A92B2FEAB900843655 /* SeSACShop.swift in Sources */,
 				8BFF0B902B2BE2E4008D801F /* InAppPurchaseViewController.swift in Sources */,
 				8B2873F42B22A624007C943E /* ContentView.swift in Sources */,
 				8BF71C1C2B27EBC60069E9F2 /* DI.swift in Sources */,

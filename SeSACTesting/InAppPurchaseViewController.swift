@@ -8,6 +8,11 @@
 /*
 1. 유료 계약 활성화 / 개발자 계정 / In App Purchase Capabilities
 2. Appstore Connect In App Product 등록
+3. 인앱 구매: 사용자 결제 가능 여부 확인 + 상품 조회 -> SKProductRequest
+4. SKProductsRequestDelegate 로 상품 정보 조회
+5. SKPaymentTransactionObserver로 사용자 결제 상태 확인
+6. 인앱 결제 로직 성공 -> 영수증 검증 -> UserDefaults
+7. 영수증 유효성 검증: 서버가 있다면 서버가 진행, 서버가 없다면 직접 클라이언트상에서 처리
 */
 
 import UIKit

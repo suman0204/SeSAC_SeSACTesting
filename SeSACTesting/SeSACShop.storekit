@@ -1,0 +1,127 @@
+{
+  "identifier" : "4333FD26",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "999.99",
+      "familyShareable" : false,
+      "internalID" : "6474275980",
+      "localizations" : [
+        {
+          "description" : "Add Diamond 100",
+          "displayName" : "Diamond 100",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "다이아몬드 100개입니다.",
+          "displayName" : "다이아몬드 100",
+          "locale" : "ko"
+        }
+      ],
+      "productID" : "com.soomanhong.SeSACFirebase.diamond100",
+      "referenceName" : "Diamond 100",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "B871E74F",
+      "localizations" : [
+        {
+          "description" : "Buy Please",
+          "displayName" : "Premium Products",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "나를 결제해주세요",
+          "displayName" : "프리미엄 결제",
+          "locale" : "ko"
+        }
+      ],
+      "productID" : "com.soomanhong.SeSACFirebase.premium",
+      "referenceName" : "Premium",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "C89D8370",
+      "localizations" : [
+        {
+          "description" : "Upgrade",
+          "displayName" : "Upgrade",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "업그레이드",
+          "displayName" : "업그레이드",
+          "locale" : "ko"
+        }
+      ],
+      "productID" : "com.soomanhong.Firebase.upgrade",
+      "referenceName" : "Upgrade",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
